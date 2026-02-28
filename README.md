@@ -32,11 +32,19 @@ A lightweight, free VPN client with a modern GUI built with Python and PySide6, 
 ## 📦 Installation
 
 ### Prerequisites
-- Windows OS (with administrator privileges)
-- OpenVPN (included in the package)
+- Windows 10/11 (64-bit)
+- Administrator privileges
+- [TAP Driver](https://github.com/YearZero4/RuxerVPN/releases/download/tap-openvpn/tap-openvpn.msi) (required for OpenVPN)
+
+# Download the TAP driver
+# Direct link: https://github.com/YearZero4/RuxerVPN/releases/download/tap-openvpn/tap-openvpn.msi
+
+# Run the installer as administrator
+# Right-click the downloaded file and select "Run as administrator"
 
 ### From Source
 ```bash
+
 # Clone the repository
 git clone https://github.com/yourusername/RuxerVPN.git
 cd ruxer-vpn
