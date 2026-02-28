@@ -1,7 +1,12 @@
+import pyuac, win32security, sys, threading, requests, subprocess, os
 from PySide6.QtWidgets import QApplication, QPushButton, QLabel, QWidget, QVBoxLayout, QScrollArea
 from PySide6.QtCore import Qt, QMetaObject, Q_ARG
-import sys, threading, requests, subprocess, os
 import src.vpn as vpn
+
+if not pyuac.isUserAdmin():
+ print("Re-running as administrator...")
+ pyuac.runAsAdmin()
+ sys.exit()
 
 
 msgGeoWait = "Geolocating, please wait..."
