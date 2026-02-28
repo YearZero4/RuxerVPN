@@ -47,7 +47,7 @@ A lightweight, free VPN client with a modern GUI built with Python and PySide6, 
 
 # Clone the repository
 git clone https://github.com/yourusername/RuxerVPN.git
-cd ruxer-vpn
+cd RuxerVPN
 
 # Install dependencies
 python -m venv venv
